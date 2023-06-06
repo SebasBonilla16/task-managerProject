@@ -1,0 +1,102 @@
+body{
+    background: #D6A99A;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: block;
+    width: 500px;
+    margin: 50px auto 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li *{
+    float: left;
+}
+
+li, h3{
+    clear: both;
+    list-style: none;
+}
+
+input, button{
+    outline: none;
+}
+
+button {
+    background: #E16036;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #52489C;
+}
+
+/* Creating a new task */
+h3, label[for="create-task"]{
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 3px dotted #000000;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+input[type="text"]{
+    margin: 0;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid #ffffff; 
+    background: #fff;
+    border-radius: 6px;
+    color: #52489C;
+}
+
+input[type = "text"]:focus{
+    color: #000000;
+}
+
+.middle{
+    text-align: center;
+}
+
+/* New Task */
+label [for = "create-task"]{
+    display: block;
+    margin: 0 0 20px;
+}
+
+input#create-task{
+    float: left;
+    width: 200px;
+}
+
+p>button:hover{
+    color: #52489C;
+}
+
+/* Task List */ 
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+
+li>input[type = "checkbox"]{
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
+}
